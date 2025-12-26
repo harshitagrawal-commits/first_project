@@ -40,7 +40,7 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
-
+/*
 @Composable
 fun Global_Theme_JPCTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -63,7 +63,7 @@ fun Global_Theme_JPCTheme(
       content = content
     )
 }
-
+*/
 
 
 

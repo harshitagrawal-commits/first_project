@@ -65,5 +65,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    implementation("com.github.harshitagrawal-commits:first_project:1.0.1")
+    implementation("com.github.harshitagrawal-commits:first_project:1.0.2")
 }
