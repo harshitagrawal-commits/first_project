@@ -1,7 +1,6 @@
 
 package com.example.global_theme_jpc.ui
 
-
 import android.os.Bundle
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -48,6 +47,7 @@ import androidx.compose.ui.Alignment
 
 import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.LocalContext
+import com.example.jpc_library.ui.theme.Global_Theme_JPCTheme
 import kotlinx.coroutines.flow.map
 import java.time.temporal.TemporalAdjusters.next
 
@@ -74,8 +74,8 @@ class MainActivity : ComponentActivity() {
             val themeIndex by context.dataStore.data
                 .map { it[PrefKeys.THEME_INDEX] ?: 1 }
                 .collectAsState(initial = 1)
-
-            Theme_JPC(themeIndex) {
+            Global_Theme_JPCTheme()
+            Global_Theme_JPC(themeIndex) {
 
                 Scaffold(
                     topBar = {
@@ -121,7 +121,7 @@ class MainActivity : ComponentActivity() {
 
 
 @Composable
-fun Theme_JPC(
+fun Global_Theme_JPC(
     themeIndex: Int,
     content: @Composable () -> Unit
 ) {

@@ -1,4 +1,4 @@
-package com.example.global_theme_jpc.ui.theme
+package com.example.jpc_library.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

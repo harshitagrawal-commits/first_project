@@ -1,4 +1,4 @@
-package com.example.global_theme_jpc.ui.theme
+package com.example.jpc_library.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
