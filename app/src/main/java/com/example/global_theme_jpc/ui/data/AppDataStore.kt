@@ -1,4 +1,4 @@
-package com.example.jpc_library.ui.data
+package com.example.global_theme_jpc.ui.data
 
 import android.content.Context
 import androidx.datastore.preferences.preferencesDataStore
